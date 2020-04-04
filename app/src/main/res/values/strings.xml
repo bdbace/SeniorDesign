@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Combat Swimmer Data Recorder</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_distance">Distance</string>
+    <string name="title_time">Time</string>
+    <string name="title_pace">Pace</string>
+    <string name="title_splits">Splits</string>
+    <string name="title_graphs">Graphs</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_depth">Depth</string>
+    <string name="title_total_dives">Total Dives</string>
+    <string name="title_total_time">Total Time</string>
+    <string name="title_total_distance">Total Distance</string>
+    <string name="title_login">Login</string>
+    <string name="title_password">Password</string>
+
+
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+
+    <string name="state_scanning">Scanning…</string>
+    <string name="state_connecting">Connecting…</string>
+    <string name="state_discovering_services">Discovering services…</string>
+    <string name="state_initializing">Initializing…</string>
+    <string name="state_disconnected">Device disconnected.</string>
+
+
+
+</resources>

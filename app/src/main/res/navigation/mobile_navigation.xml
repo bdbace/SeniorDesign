@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.seniordesign.ui.home.HomeFragment"
+        android:label="@string/title_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.seniordesign.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.seniordesign.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.example.seniordesign.ui.maps.MapsFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_graphs"
+        android:name="com.example.seniordesign.ui.graphs.GraphsFragment"
+        android:label="@string/title_graphs"
+        tools:layout="@layout/fragment_graphs" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.seniordesign.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id ="@+id/navigation_ble"
+        android:name = "com.example.seniordesign.ui.BLE.BLEFragment"
+        android:label="Connect"
+        tools:layout="@layout/fragment_ble" />
+</navigation>
