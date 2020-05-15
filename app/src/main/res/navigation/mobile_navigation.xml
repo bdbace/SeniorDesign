@@ -24,13 +24,13 @@
 
     <fragment
         android:id="@+id/navigation_maps"
-        android:name="com.example.seniordesign.ui.maps.MapsFragment"
+        android:name="com.example.seniordesign.ui.maps.MapFragment"
         android:label="@string/title_maps"
         tools:layout="@layout/fragment_maps" />
 
     <fragment
         android:id="@+id/navigation_graphs"
-        android:name="com.example.seniordesign.ui.graphs.GraphsFragment"
+        android:name="com.example.seniordesign.ui.graphs.GraphFragment"
         android:label="@string/title_graphs"
         tools:layout="@layout/fragment_graphs" />
 

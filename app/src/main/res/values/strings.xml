@@ -27,7 +27,8 @@
     <string name="state_discovering_services">Discovering services…</string>
     <string name="state_initializing">Initializing…</string>
     <string name="state_disconnected">Device disconnected.</string>
-
+    <string name="YOUR_API_KEY">AIzaSyAGds1g40Wp7ANN8FohxH38eVyvwoNzkT0</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>
